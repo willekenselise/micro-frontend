@@ -1,4 +1,11 @@
-# Rsbuild / Create React App Example
+# Requirements:
+
+Node.js Installed on your computer see : https://nodejs.org/en/download
+
+Install pnpm : npm install -g pnpm
+
+
+# Microfrontend Example :  Create React App Example / Rsbuild
 
 This example demos a basic host application loading remote component.
 
@@ -7,6 +14,7 @@ This example demos a basic host application loading remote component.
 
 # Running Demo
 
+Run `pnpm install` to install all required files and node module.
 Run `pnpm run start`. This will build and serve both `host` and `remote` on ports 3001 and 3002 respectively.
 
 - [localhost:3001](http://localhost:3000/) (HOST)

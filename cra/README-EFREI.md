@@ -35,3 +35,21 @@ To run tests in interactive mode, run `npm run cypress:debug` from the root dire
 To build app and run test in headless mode, run `yarn e2e:ci`. It will build app and run tests for this workspace in headless mode. If tets failed cypress will create `cypress` directory in sample root folder with screenshots and videos.
 
 ["Best Practices, Rules amd more interesting information here](../../cypress/README.md)
+
+
+
+# Next steps :
+Create a Component App
+
+Develop a shared library of React components.
+Ensure these components are reusable and modular.
+Remote App Development (Client's View)
+
+Develop a landing page using components from the Component App.
+Integrate Vitest for testing. Write basic tests for your components.
+Implement a fake API call to fetch and display data (use tools like JSONPlaceholder or create your own mock data).
+Host App Development (Admin View)
+
+Develop an admin-focused landing page, again using components from the Component App.
+Integrate Jest for testing. Write tests similar to the Remote App but with Jest.
+Incorporate PrismaORM for database interactions. You can simulate a database environment or provide a basic schema for local setup.

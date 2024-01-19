@@ -12,7 +12,7 @@ This example demos a basic host application loading remote component.
 - `host` is the host application (cra-based).
 - `remote` standalone application (cra-based) which exposes `Button` component.
 
-# Running Demo
+# Installing the application
 
 Run `pnpm install` to install all required files and node module. This will take a while.
 Run `pnpm install --save-dev jest` we will need it later to run tests on the app. (Jest will be our test container)
@@ -20,9 +20,9 @@ Run `pnpm install cypress --save-dev` we will need it later to run tests on the 
 
 
 
-# Running Demo 
+# Building and Running Demo 
 Run `pnpm run start`. This will build and serve both `host` and `remote` on ports 3001 and 3002 respectively.
-Also it will add
+Also it will build all apps which respects the global package.json start scripts   "start": "pnpm --filter cra_* start" , basically all app which starts by 'cra_'
 
 
 - [localhost:3001](http://localhost:3000/) (HOST)

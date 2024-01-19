@@ -18,7 +18,7 @@ Run `pnpm install` to install all required files and node module. This will take
 Run `pnpm install --save-dev jest` we will need it later to run tests on the app. (Jest will be our test container)
 Run `pnpm install cypress --save-dev` we will need it later to run tests on the app. ( Cypress will run End to End Tests)
 
-
+pnpm install --save-dev jest
 
 # Building and Running Demo 
 Run `pnpm run start`. This will build and serve both `host` and `remote` on ports 3001 and 3002 respectively.

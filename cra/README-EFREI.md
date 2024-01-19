@@ -39,6 +39,8 @@ To build app and run test in headless mode, run `yarn e2e:ci`. It will build app
 
 
 # Next steps :
+0) Create a Notion (or Confluence or Obsidian) page where you will write documentation just like a true feature teams. Ideally one (short) page with screenshots for each steps there:
+
 1) Create a Component App
 
 * Develop a shared library of React components.
@@ -49,13 +51,25 @@ To build app and run test in headless mode, run `yarn e2e:ci`. It will build app
 * Develop a landing page using components from the Component App.
 * Integrate Vitest for testing. Write basic tests for your components.
 * Implement a fake API call to fetch and display data (use tools like JSONPlaceholder or create your own mock data).
-
+Use mockapi for a quick available api : https://mockapi.io/  or the pokemon api https://pokeapi.co/
 
 3) Host App Development (Admin View)
 
-Develop an admin-focused landing page, again using components from the Component App.
-Integrate Jest for testing. Write tests similar to the Remote App but with Jest.
-Incorporate PrismaORM for database interactions. You can simulate a database environment or provide a basic schema for local setup.
+* Develop an admin-focused landing page, again using components from the Component App.
+* Integrate Jest for testing. Write tests similar to the Remote App but with Jest.
+* Incorporate PrismaORM for database interactions. You can simulate a database environment or provide a basic schema for local setup.
+Use supabase or neon.tech for a free hosted database and a quick setup.
+* Once the database set, make a quick dashboard where the admin will use a Form and create notes of his daily work.
 
 
-4) P
+4) Add file upload (Client's View)
+* Use AWS S3 Api to upload files ( any kind of files, pdf, images etc) to OVH public cloud
+
+5) Read files from AWS S3 bucket (Admin view)
+* See all uploaded files in a dashboard (or an array) fetched from OVH Public cloud
+
+6) Deploy the app on a free Platform as a Service
+* You can use Vercel, fly.io, dokku, Qovery
+
+7) Make a dockerfile and run the app through docker.
+* Deploy the app with a more complex paas which will use the dockerfile. (Dokku, Qovery etc.)

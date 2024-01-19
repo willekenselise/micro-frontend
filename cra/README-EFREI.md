@@ -39,17 +39,23 @@ To build app and run test in headless mode, run `yarn e2e:ci`. It will build app
 
 
 # Next steps :
-Create a Component App
+1) Create a Component App
 
-Develop a shared library of React components.
-Ensure these components are reusable and modular.
-Remote App Development (Client's View)
+* Develop a shared library of React components.
+* Ensure these components are reusable and modular.
 
-Develop a landing page using components from the Component App.
-Integrate Vitest for testing. Write basic tests for your components.
-Implement a fake API call to fetch and display data (use tools like JSONPlaceholder or create your own mock data).
-Host App Development (Admin View)
+2) Remote App Development (Client's View)
+
+* Develop a landing page using components from the Component App.
+* Integrate Vitest for testing. Write basic tests for your components.
+* Implement a fake API call to fetch and display data (use tools like JSONPlaceholder or create your own mock data).
+
+
+3) Host App Development (Admin View)
 
 Develop an admin-focused landing page, again using components from the Component App.
 Integrate Jest for testing. Write tests similar to the Remote App but with Jest.
 Incorporate PrismaORM for database interactions. You can simulate a database environment or provide a basic schema for local setup.
+
+
+4) P

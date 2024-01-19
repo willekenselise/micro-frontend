@@ -14,8 +14,11 @@ This example demos a basic host application loading remote component.
 
 # Running Demo
 
-Run `pnpm install` to install all required files and node module.
+Run `pnpm install` to install all required files and node module. This will take a while.
 Run `pnpm run start`. This will build and serve both `host` and `remote` on ports 3001 and 3002 respectively.
+Run `pnpm install --save-dev jest` we will need it later to run tests on the app. (Jest will be our test container)
+Run `pnpm install cypress --save-dev` we will need it later to run tests on the app. ( Cypress will run End to End Tests)
+
 
 - [localhost:3001](http://localhost:3000/) (HOST)
 - [localhost:3002](http://localhost:3002/) (STANDALONE REMOTE)
